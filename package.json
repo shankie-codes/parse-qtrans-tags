@@ -1,20 +1,17 @@
 {
   "name": "redux-i18n-parse-content-tags",
-  "version": "0.0.8",
+  "version": "0.0.1",
   "description": "redux i18n parse content tags",
   "main": "./dist/index.js",
   "scripts": {
     "build": "webpack -p",
-    "rename-css-bower-dependencies": "find bower_components -name '*.css' | sed -e 'p;s/.css$/.scss/' | xargs -n2 mv",
+    "rename-css-bower-dependencies":
+      "find bower_components -name '*.css' | sed -e 'p;s/.css$/.scss/' | xargs -n2 mv",
     "start": "webpack-dev-server --inline --hot"
   },
   "author": "",
   "license": "BSD",
-  "keywords": [
-    "react",
-    "reactjs",
-    "react-component"
-  ],
+  "keywords": ["react", "reactjs", "react-component"],
   "devDependencies": {
     "babel-core": "~5.8.22",
     "babel-eslint": "^4.0.10",
