@@ -1,5 +1,5 @@
 {
-  "name": "redux-i18n-parse-content-tags",
+  "name": "parse-qtrans-tags",
   "version": "0.0.1",
   "description": "redux i18n parse content tags",
   "main": "./dist/index.js",
